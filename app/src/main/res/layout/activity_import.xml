@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/import"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="import" />
+
+    <Button
+        android:id="@+id/browse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Browse Filesystem" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Make this a chunk and inflate it based on the selected media. Each element should have a title, a preview button, and a delete button" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done" />
+
+</LinearLayout>
